@@ -7,6 +7,9 @@
 # uncomment to turn on thinking sphinx/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
 # require_recipe "sphinx"
 
+# uncomment to turn rubygems on / Rajiv on Oct 29 2011
+ require_recipe "rubygems"
+
 #uncomment to turn on memcached
 # require_recipe "memcached"
 
